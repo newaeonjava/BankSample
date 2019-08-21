@@ -3,7 +3,7 @@ package com.newaeon.banking;
 public abstract class Account {
     private String number;
     private String owner;
-    private Double balance = 0.0;
+    private Double balance = 1.0;
 
     protected Account(String number, String owner) {
         this.number = number;
